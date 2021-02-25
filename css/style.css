@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 0; */
     font-family: 'Jura', sans-serif;
 }
 
@@ -37,12 +36,14 @@ body {
 
 /* Здесь */
 .second{
+    font-size: 20px;
+    font-weight: bold;
     display: none;
 }
 
 
 .btn__second {
-    margin-left: 150px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 
@@ -85,7 +86,7 @@ p {
     font-size: 18px;
     font-weight: bold;
 }
-
+/* Здесь */
 .complete{
     display: none;
 }

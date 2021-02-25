@@ -26,7 +26,7 @@ let btn_2 = document.querySelector(".btn__second");
 let form_2 = document.querySelector(".icon__second");
 
 btn_2.onclick = function () {
-    form_2.innerHTML = "Размер окна в px: " + window.innerWidth + " " + window.innerHeight;
+    form_2.innerHTML = "Размер данного окна: " + window.innerWidth + "px X " + window.innerHeight + "px";
     btn_2.innerHTML = "Далее";
     btn_2.onclick = function () {
     w_2.style.display = "none";
@@ -69,10 +69,11 @@ btn_3w.onclick = function () {
 }
 
 let btn_4w = document.querySelector(".btn_fourth");
-form_4 = document.querySelector(".icon__fourth");
+form_4 = document.querySelector("#link");
+form_5 = document.querySelector(".icon__fourth");
 
 btn_4w.onclick = function () {
-    form_4.innerHTML = "Аттрибут 'type': " + w_4.getAttribute('type') + "<br>" + "Аттрибут 'hreflang': " + w_4.getAttribute('hreflang') + "<br>" +  "Аттрибут 'rel': " + w_4.getAttribute('rel') + "<br>" + "Аттрибут 'target': " + w_4.getAttribute('target') + "<br>" + "Аттрибут 'href': " + w_4.getAttribute('href');
+    form_5.innerHTML = "↑" + "<br>" + "В этом абзаце" + "<br>" + "имеются следущие аттрибуты:" + "<br>" + "↓" + "<br>" + "'type': " + form_4.getAttribute('type') + "<br>" + "'hreflang': " + form_4.getAttribute('hreflang') + "<br>" +  "'rel': " + form_4.getAttribute('rel') + "<br>" + "'target': " + form_4.getAttribute('target') + "<br>" + "'href': " + form_4.getAttribute('href');
     btn_4w.innerHTML = "Дело сделано";
     btn_4w.onclick = function () {
         w_4.style.display = "none";
