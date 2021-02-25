@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 0;
+    /* outline: 0; */
     font-family: 'Jura', sans-serif;
 }
 
@@ -9,69 +9,91 @@ body {
     background: #faecce
 }
 
-/* 1 задание */
-
-.first_1w{
+.work{
     width: 600px;
     margin: 50px auto;
-
-}
-.first_1w p{
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.icon_1w {
+    text-align: center;
     font-size: 14px;
+}
+
+.icon__first {
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
 }
 
-.btn_1w {
+.btn {
     width: 200px;
     padding: 10px;
-    font-size: 14px;
     background-color: #7c1616;
     color: white;
     border-radius: 5px;
     transition: background 600ms ease-out;
-
 }
-.btn_1w:hover{
+
+.btn:hover{
     background-color: #252525
 }
 
-/* 2 задание */
-
-.first_2w{
-    width: 600px;
-    margin: 50px auto;
+/* Здесь */
+.second{
     display: none;
+}
+
+
+.btn__second {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+/* Здесь */
+.third{
+    text-align: center;
+    display: none;
+}
+
+p {
+    font-size: 28px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+
+ .btn__third {
+
+    margin-top: 10px;
+ }
+
+.icon__third {
+    position: absolute;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    background: "white";
+    border-radius: 5px;
+    display: none;
+    opacity: .7;
 
 }
-.first_2w p{
-    margin-left: 20px;
-    font-size: 20px;
+/* Здесь */
+.fourth {
+    display: none;
+}
+
+.icon__fourth{
+    font-size: 18px;
     font-weight: bold;
 }
-.icon_2w {
-    font-size: 14px;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
+
+.complete{
+    display: none;
 }
 
-.btn_2w {
-    width: 200px;
-    padding: 10px;
-    font-size: 14px;
-    background-color: #7c1616;
-    color: white;
-    border-radius: 5px;
-    transition: background 600ms ease-out;
+img {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 
-}
-.btn_2w:hover{
-    background-color: #252525
 }
