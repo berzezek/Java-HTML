@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Jura', sans-serif;
+}
+
+body {
+    background: #faecce
+}
+
+/* 1 задание */
+
+.first_1w{
+    width: 600px;
+    margin: 50px auto;
+
+}
+.first_1w p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.icon_1w {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn_1w {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #7c1616;
+    color: white;
+    border-radius: 5px;
+    transition: background 600ms ease-out;
+
+}
+.btn_1w:hover{
+    background-color: #252525
+}
+
+/* 2 задание */
+
+.first_2w{
+    width: 600px;
+    margin: 50px auto;
+    display: none;
+
+}
+.first_2w p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.icon_2w {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn_2w {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #7c1616;
+    color: white;
+    border-radius: 5px;
+    transition: background 600ms ease-out;
+
+}
+.btn_2w:hover{
+    background-color: #252525
+}
